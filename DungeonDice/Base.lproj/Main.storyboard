@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,26 +12,26 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DungeonDice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="5aH-Ex-ZLk">
-                                <rect key="frame" x="16" y="20" width="288" height="270"/>
+                                <rect key="frame" x="30" y="64" width="315" height="270"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dungeon Dice!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAz-aC-jqe">
-                                        <rect key="frame" x="21.5" y="0.0" width="245.5" height="48"/>
+                                        <rect key="frame" x="35" y="0.0" width="245.33333333333337" height="48"/>
                                         <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="38"/>
                                         <color key="textColor" red="0.83263309733072921" green="0.28629087157012728" blue="0.24198522514241314" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGq-S5-Fw1">
-                                        <rect key="frame" x="123" y="76" width="42" height="20"/>
+                                        <rect key="frame" x="136.66666666666666" y="76" width="41.666666666666657" height="20"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="51" translatesAutoresizingMaskIntoConstraints="NO" id="V2m-g3-qwp">
-                                        <rect key="frame" x="18" y="124" width="252" height="30"/>
+                                        <rect key="frame" x="31.666666666666657" y="124" width="251.99999999999997" height="30"/>
                                         <subviews>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zya-pJ-xBv">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
@@ -52,7 +52,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyZ-4P-hnN">
-                                                <rect key="frame" x="202" y="0.0" width="50" height="30"/>
+                                                <rect key="frame" x="202.00000000000003" y="0.0" width="50" height="30"/>
                                                 <state key="normal" title="8 sides">
                                                     <color key="titleColor" red="0.83263309730000001" green="0.2862908716" blue="0.24198522510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -63,7 +63,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="TCX-Vl-UVY">
-                                        <rect key="frame" x="116" y="182" width="56" height="30"/>
+                                        <rect key="frame" x="129.66666666666666" y="182" width="56" height="30"/>
                                         <subviews>
                                             <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pnb-5L-lLz">
                                                 <rect key="frame" x="0.0" y="0.0" width="56" height="30"/>
@@ -77,7 +77,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="uGk-3A-NJ5">
-                                        <rect key="frame" x="10" y="240" width="268" height="30"/>
+                                        <rect key="frame" x="23.666666666666657" y="240" width="268" height="30"/>
                                         <subviews>
                                             <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Jj-wV-0LN">
                                                 <rect key="frame" x="0.0" y="0.0" width="66" height="30"/>
@@ -111,12 +111,21 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1G-1J-0Aq">
+                                <rect key="frame" x="121" y="369" width="133" height="30"/>
+                                <state key="normal" title="clear and start over">
+                                    <color key="titleColor" red="0.83263309730000001" green="0.2862908716" blue="0.24198522510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="5aH-Ex-ZLk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Bzo-li-L77"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5aH-Ex-ZLk" secondAttribute="trailing" constant="16" id="dkb-Qg-V0e"/>
-                            <constraint firstItem="5aH-Ex-ZLk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="jmO-Dx-wlu"/>
+                            <constraint firstItem="c1G-1J-0Aq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="121" id="Hij-uF-tqz"/>
+                            <constraint firstItem="c1G-1J-0Aq" firstAttribute="top" secondItem="5aH-Ex-ZLk" secondAttribute="bottom" constant="35" id="KSt-VU-dvm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5aH-Ex-ZLk" secondAttribute="trailing" constant="30" id="dkb-Qg-V0e"/>
+                            <constraint firstItem="5aH-Ex-ZLk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="jmO-Dx-wlu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c1G-1J-0Aq" secondAttribute="trailing" constant="121" id="yfI-qN-muB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
